@@ -11,6 +11,7 @@ primary_region = 'sin'
   STORE_PATH = "/app"
 
 [build]
+  image = "ghcr.io/drizzle-team/gateway:latest"
 
 [http_service]
   internal_port = 8080
