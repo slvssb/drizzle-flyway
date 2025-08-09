@@ -9,7 +9,7 @@ Deploy [Drizzle Gateway](https://gateway.drizzle.team) on [Fly.io](https://fly.i
 1. **Launch the app**:
 
    ```bash
-   fly launch --copy-config
+   fly launch --no-deploy
    ```
 
 2. **Set environment variables**:
